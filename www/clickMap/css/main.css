@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content_center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp,
+.signIn,
+.clickMap,
+.statisticsOfClicksOnTheClock{
+    border: 1px solid #0D3349;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.signUp > a,
+.signIn > a,
+.clickMap > a,
+.statisticsOfClicksOnTheClock > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 10vh;
+    color: #0D3349;
+}
+
+.signUp > a:hover,
+.statisticsOfClicksOnTheClock > a:hover,
+.clickMap > a:hover,
+.signIn > a:hover {
+    transition: 200ms;
+    background-color: #cccccc;
+}
+
+.signUp > a:active,
+.statisticsOfClicksOnTheClock > a:active,
+.clickMap > a:active,
+.signIn > a:active {
+    transition: 200ms;
+    background-color: #c0c0c0;
+}

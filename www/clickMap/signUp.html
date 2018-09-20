@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signIn.css"/>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Регистрация</h1>
+        <form>
+            <input onblur="validateUsername()" id="username" class="form-field" type="text" placeholder="Username">
+            <input onblur="validatePassword()" id="password" class="form-field" type="password" placeholder="Password">
+            <p id="error">Вы ввели некорректные данные</p>
+        </form>
+        <div onclick="signUp()" id="button_SignUp" class="button">Зарегистрироваться</div>
+    </div>
+
+    <script src="js/signUp.js"></script>
+</body>
+</html>
